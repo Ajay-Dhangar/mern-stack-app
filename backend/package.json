@@ -1,0 +1,29 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Learn how to create a RESTful API with Node.js and Express.js and learn MERN Stack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "rest",
+    "api",
+    "mern"
+  ],
+  "author": "ajay-dhangar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "mongoose": "^8.3.0",
+    "nodemon": "^3.1.0"
+  }
+}
