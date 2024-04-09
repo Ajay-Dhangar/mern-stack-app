@@ -18,7 +18,9 @@
   "author": "ajay-dhangar",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongodb": "^6.5.0"
   },
   "devDependencies": {
     "colors": "^1.4.0",
