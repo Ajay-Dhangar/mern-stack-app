@@ -16,6 +16,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 app.use("/api/goals", require("./src/routes/GoalRoutes"));
+app.use('/api/users', require('./src/routes/userRoutes'));
 
 app.use(ErrorHandler);
 
