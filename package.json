@@ -1,0 +1,36 @@
+{
+  "name": "mearn-app",
+  "version": "1.0.0",
+  "description": "MERN stack app with backend in Node.js, Express, MongoDB and frontend in React.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [
+    "MERN",
+    "Redux",
+    "React",
+    "Node",
+    "Express",
+    "MongoDB"
+  ],
+  "author": "Ajay-Dhangar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
